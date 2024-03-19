@@ -4,8 +4,8 @@ let list = document.querySelector("#list");
 inputBx.addEventListener("keyup", function (event) {
     if (event.key == "Enter") {
         if (this.value != "") {
-          addItem(this.value);
-            this.value = "";  
+            addItem(this.value);
+            this.value = "";
         }
     }
 })

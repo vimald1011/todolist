@@ -139,3 +139,15 @@ footer {
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
 }
+
+@media screen and (max-width: 500px), 
+       screen and (max-height: 600px) {
+    .box {
+        width: 350px;
+        height: 500px;
+    }
+
+    footer {
+        display: none;
+    }
+}
